@@ -22,16 +22,16 @@ todos los comandos probablemente son faciles de traducir a cualquier otro ambien
 
 ### Basicos
 
-ripgrep is a command line tool that searches your files for patterns that
-you give it. ripgrep behaves as if reading each file line by line. If a line
-matches the pattern provided to ripgrep, then that line will be printed. If a
-line does not match the pattern, then the line is not printed.
+ripgre es una herramienta de linea de comandos que busca en tus archivos los 
+patrones que le asignas. ripgrep se comporta como si leyera cada archivo
+linea por linea. Si una linea coincide con el patrón que se le definió, 
+esa línea se mostrará. Si la lína no tiene coincidencias con el patrón, no 
+sra mostrada.
 
-The best way to see how this works is with an example. To show an example, we
-need something to search. Let's try searching ripgrep's source code. First
-grab a ripgrep source archive from
-https://github.com/BurntSushi/ripgrep/archive/0.7.1.zip
-and extract it:
+La mejor forma de mostrar como trabaja es ocn un ejeplo. Para ello necesitamos
+buscar algo. Vamos a probar a buscar en el código fuente de ripgrep. Primero toma 
+un archivo de código fuente de ripgrep de https://github.com/BurntSushi/ripgrep/archive/0.7.1.zip
+y extrae esto:
 
 ```
 $ curl -LO https://github.com/BurntSushi/ripgrep/archive/0.7.1.zip
